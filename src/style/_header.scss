@@ -9,7 +9,7 @@
 
 
         &__logo{
-            margin-left: 20px;
+            margin-left: 90px;
         }
 
         &__nav{
@@ -27,6 +27,20 @@
             font-size: 16px;
             line-height: 0px;
             color: black;
+            margin-right: 20px;
+        }
+
+
+        .btn1{
+            text-decoration: none;
+            color: black;
+            border: none;
+            cursor: pointer;
+            align-items: flex-end;
+            justify-content: end;
+            font-size:  17px;
+            background: #ffff;
+            margin-right: 15px;
         }
 
         .btn2{
@@ -36,10 +50,8 @@
             cursor: pointer;
             align-items: flex-end;
             justify-content: end;
-            width: 180px;
+            width: 150px;
             height: 50px;
-            left: 1440px;
-            top: 31px;
             background: #0555FF;
             border-radius: 30px;
         }

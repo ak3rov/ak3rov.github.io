@@ -2,6 +2,7 @@
     padding-top: 80px;
     &__title{
         align-items: center;
+        margin-right: 25px;
         font-family: Circular Std;
         font-weight: 600;
         font-size: 47px;
@@ -9,6 +10,7 @@
         text-align: center;
         color: #050038;
         margin-bottom: 5px;
+        
     }
 
     &__subtitle{
@@ -62,7 +64,7 @@
     &__img{
         width: 996px;
         height: 506px;
-        padding-left: 100px;
+        padding-left: 175px;
         margin-bottom: 50px;
     }
 
