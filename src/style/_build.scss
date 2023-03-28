@@ -1,0 +1,40 @@
+.build{
+        .container-build{
+            min-width: 600px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 100px auto;
+            padding: 20px; 
+            padding-right: 150px;
+        }
+
+        &__title{
+            font-family: Circular Std;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 91px;
+            text-align: center;
+            color: #050038;
+            margin-bottom: 30px;
+           
+        }
+    
+        &__subtitle{
+            font-family: Inter;
+            font-size: 20px;
+            line-height: 32px;
+            color: #5B5E6D;
+            margin-bottom: 40px;
+        }
+
+        &__link{
+            color: black;
+            text-decoration: none;
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+        }
+}

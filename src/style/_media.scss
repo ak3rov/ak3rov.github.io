@@ -1,0 +1,48 @@
+@media(max-width:900px){
+    .growup{
+        .growup__img{
+            display: none;
+        }
+
+        .growup__subtitle{
+            font-size: 17px;
+        }
+
+        .growup__title{
+            font-size: 37px;
+            line-height: 40px;
+        }
+
+        .btn1{
+            width: 186px;
+        }
+
+        .btn2{
+            width: 186px;
+        }
+
+        .title{
+            font-size: 14px;
+        }
+    }
+
+    .award{
+        &__title{
+            font-size: 32px;
+        }
+
+        &__subtitle{
+            font-size: 16px;
+        }
+    }
+
+    .develop{
+        &__title{
+            font-size: 52px;
+        }
+
+        &__subtitle{
+            color: black;
+        }
+    }
+}
